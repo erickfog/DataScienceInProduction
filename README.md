@@ -1,4 +1,5 @@
-# DataScienceInProduction
+
+# ![DataScienceInProduction](https://github.com/erickfog/DataScienceInProduction/blob/main/img/rossman_image.jpg)
 This Repository was created for a project in data science.
 
 ## Premissas de Negócio
@@ -19,4 +20,3 @@ This Repository was created for a project in data science.
 ## Convertendo o Desempenho do Modelo em Resultados de Negócio
 
 ## Conclusão
-
