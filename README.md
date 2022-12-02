@@ -6,7 +6,7 @@ O CEO da rede de farmácia Rossman precisa saber qual a previsão de vendas da l
 
 ### Lista de Atributos
 
-## 2. Estratégia de Solução
+## 2. Planejamento da Solução
 
 ### Descrição dos Dados: 
 ### Feature Engineering:
@@ -20,7 +20,6 @@ O CEO da rede de farmácia Rossman precisa saber qual a previsão de vendas da l
 
 
 ## 3. Top Insights
-
 
 ## 4. Modelos de Machine Learning Aplicados
 
