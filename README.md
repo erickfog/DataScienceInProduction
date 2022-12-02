@@ -1,13 +1,12 @@
 
 # ![DataScienceInProduction](https://github.com/erickfog/DataScienceInProduction/blob/main/img/rossman_image.jpg)
-# Previsão de Vendas
-This Repository was created for a project in data science.
+O CEO da rede de farmácia Rossman precisa saber qual a previsão de vendas da loja para os próximos meses com intuto de tomar decisões de negócios mais acertivas. 
 
-## Premissas de Negócio
+## 1. Problema de Negócio
 
 ### Lista de Atributos
 
-# Estratégia de Solução
+## Estratégia de Solução
 
 ### Descrição dos Dados: 
 ### Feature Engineering:
