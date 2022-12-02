@@ -6,7 +6,7 @@ O CEO da rede de farmácia Rossman precisa saber qual a previsão de vendas da l
 
 ### Lista de Atributos
 
-## Estratégia de Solução
+## 2. Estratégia de Solução
 
 ### Descrição dos Dados: 
 ### Feature Engineering:
@@ -19,14 +19,14 @@ O CEO da rede de farmácia Rossman precisa saber qual a previsão de vendas da l
 ### Conversão do desempenho do modelo em valores de negócios:
 
 
-## Top Insights
+## 3. Top Insights
 
 
-## Modelos de Machine Learning Aplicados
+## 4. Modelos de Machine Learning Aplicados
 
 
-## Machine Learning Model Performance
+## 5. Machine Learning Model Performance
 
-## Convertendo o Desempenho do Modelo em Resultados de Negócio
+## 6. Convertendo o Desempenho do Modelo em Resultados de Negócio
 
-## Conclusão
+## 7. Conclusão
