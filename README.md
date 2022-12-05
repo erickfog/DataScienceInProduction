@@ -7,6 +7,20 @@ O CEO da rede de farmácia Rossman precisa saber qual a previsão de vendas de c
 ### Lista de Atributos
 Atributo | Descrição
 ---------|----------
+Store    | ID único para cada loja.
+Sales    | Volume de vendas(variável target). 
+Customers| Número de clientes em determinado dia.
+Open       |
+StateHoliday |
+SchoolHoliday |
+StoreType |
+Assortment |
+CompetitionDistance |
+CompetitionOpenSince[Month/Year] |
+Promo |
+Promo2 |
+Promo2Since[Year/Week] |
+PromoInterval |
 
 ## 2. Planejamento da Solução
 
