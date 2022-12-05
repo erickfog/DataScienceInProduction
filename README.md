@@ -5,6 +5,8 @@ O CEO da rede de farmácia Rossman precisa saber qual a previsão de vendas de c
 ## 1. Problema de Negócio
 
 ### Lista de Atributos
+Atributo | Descrição
+---------|----------
 
 ## 2. Planejamento da Solução
 
