@@ -53,11 +53,11 @@ PromoInterval | Descreve os intervalos consecutivos de início da Promo2, nomean
 
 ## 4. Modelos de Machine Learning Aplicados
 
-**Avarege Model (Baseline)**
-**Linear Regression Model**
-**Linear Regression Regularized Model (LASSO)**
-**Random Forest Regressor**
-**XGBoost Regressor**
+**Avarege Model (Baseline)**\n
+**Linear Regression Model**\n
+**Linear Regression Regularized Model (LASSO)**\n
+**Random Forest Regressor**\n
+**XGBoost Regressor**\n
 
 ## 5. Machine Learning Model Performance
 
