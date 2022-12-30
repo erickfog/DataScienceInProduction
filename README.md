@@ -73,10 +73,11 @@ XGBoost Regressor |	6682.880735 |	0.949409 |	7329.962032
 ### Real Performance
 
 Model Name	| MAE CV	| MAPE CV	 | RMSE CV
-0	Random Forest Regressor	| 828.67 +/- 193.75 |	0.12 +/- 0.02 |	1242.95 +/- 291.2
-0	Linear Regression	| 2046.02 +/- 261.86 |	0.3 +/- 0.01 |	2908.89 +/- 392.31
-0	Lasso |	2049.6 +/- 274.99 |	0.29 +/- 0.01	| 2931.24 +/- 409.79
-0	XGBoost Regressor |	7049.17 +/- 589.69 |	0.95 +/- 0.0 |	7715.34 +/- 690.4
+------------|---------|----------|--------
+Random Forest Regressor	| 828.67 +/- 193.75 |	0.12 +/- 0.02 |	1242.95 +/- 291.2
+Linear Regression	| 2046.02 +/- 261.86 |	0.3 +/- 0.01 |	2908.89 +/- 392.31
+Lasso |	2049.6 +/- 274.99 |	0.29 +/- 0.01	| 2931.24 +/- 409.79
+XGBoost Regressor |	7049.17 +/- 589.69 |	0.95 +/- 0.0 |	7715.34 +/- 690.4
 
 ## 6. Convertendo o Desempenho do Modelo em Resultados de Negócio
 
