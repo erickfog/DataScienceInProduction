@@ -1,8 +1,8 @@
 
 # ![DataScienceInProduction](https://github.com/erickfog/DataScienceInProduction/blob/main/img/rossman_image.jpg)
-O CEO da rede de farmácia Rossman precisa saber qual a previsão de vendas de cada loja para os próximos meses com intuto de tomar decisões de negócios mais acertivas. 
-
 ## 1. Problema de Negócio
+
+O CEO da rede de farmácia Rossman precisa saber qual a previsão de vendas de cada loja para os próximos meses com intuto de tomar decisões de negócios mais acertivas. O objetivo principal deste projeto é fornecer insights de negócios e construir um modelo capaz de fazer previsão de vendas da rede de farmácias. 
 
 ### Lista de Atributos
 Atributo | Descrição
@@ -60,6 +60,23 @@ PromoInterval | Descreve os intervalos consecutivos de início da Promo2, nomean
 ### XGBoost Regressor
 
 ## 5. Machine Learning Model Performance
+
+### Single Performance
+Model Name |	MAE |	MAPE |	RMSE |
+-----------|------|------|-------|
+Random Forest Regressor |	686.639751 | 0.100088 |	1028.114082
+Average Model	| 1354.800353 |	0.455051 |	1835.135542
+Linear Regression |	1867.023022 |	0.292948 |	2671.800114
+Linear Regression Regularized - Lasso	| 1867.577799 |	0.290483 | 2684.030214
+XGBoost Regressor |	6682.880735 |	0.949409 |	7329.962032
+
+### Real Performance
+
+Model Name	| MAE CV	| MAPE CV	 | RMSE CV
+0	Random Forest Regressor	| 828.67 +/- 193.75 |	0.12 +/- 0.02 |	1242.95 +/- 291.2
+0	Linear Regression	| 2046.02 +/- 261.86 |	0.3 +/- 0.01 |	2908.89 +/- 392.31
+0	Lasso |	2049.6 +/- 274.99 |	0.29 +/- 0.01	| 2931.24 +/- 409.79
+0	XGBoost Regressor |	7049.17 +/- 589.69 |	0.95 +/- 0.0 |	7715.34 +/- 690.4
 
 ## 6. Convertendo o Desempenho do Modelo em Resultados de Negócio
 
