@@ -26,7 +26,7 @@ PromoInterval | Descreve os intervalos consecutivos de início da Promo2, nomean
 
 ### 2.1 Ferramentas Utilizadas
 	    -Linguagem de Programação: Python
-	       1. Biblioteca de manipulação de dados(Pandas,Numpy e Scipy)
+	       	1. Biblioteca de manipulação de dados(Pandas,Numpy e Scipy)
                2. Biblioteca de Machine Learning (Scikit-Learn)
                3. Biblioteca de Balanceamento de Dados (Imbalanced Learn)
                4. Biblioteca de Vizualização de Dados (Matplotlib e Seaborn)
