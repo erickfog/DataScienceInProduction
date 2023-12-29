@@ -2,18 +2,18 @@
 # ![DataScienceInProduction](https://github.com/erickfog/DataScienceInProduction/blob/main/img/rossman_image.jpg)
 ## 1. Problema de Negócio
 
-O CEO da rede de farmácia Rossman precisa saber qual a previsão de vendas de cada loja para os próximos meses com intuto de tomar decisões de negócios mais acertivas. O objetivo principal deste projeto é fornecer insights de negócios e construir um modelo capaz de fazer previsão de vendas da rede de farmácias. 
+O CEO da rede de farmácia Rossman precisa saber qual a previsão de vendas de cada loja para os próximos meses com intuto de tomar decisões de negócios mais acertivas. O objetivo principal deste projeto é fornecer insights de negócios e construir um modelo capaz de fazer previsão de vendas da rede de farmácias.
 
 ### Lista de Atributos
 Atributo | Descrição
 ---------|----------
 Store    | ID único para cada loja.
-Sales    | Volume de vendas(variável target). 
+Sales    | Volume de vendas(variável target).
 Customers| Número de clientes em determinado dia.
 Open       | Um indicador para saber se a loja estava aberta; (0 = fechada, 1 = aberta)
 StateHoliday | Indica um feriado estadual. (a = feriado, b = feriado da Páscoa, c = Natal, 0 = Nenhum)
 SchoolHoliday | Indica se foi afetado pelo fechamento de escolas públicas.
-StoreType | Tipos de lojas diferentes. São 4 modelos de loja diferentes: a, b, c e d. 
+StoreType | Tipos de lojas diferentes. São 4 modelos de loja diferentes: a, b, c e d.
 Assortment | Descreve um nível de estoque. (a = básico, b = extra e c = estendido)
 CompetitionDistance | Distância, em metros, do competidor mais proximo.
 CompetitionOpenSince[Month/Year] | Ano e mês aproximados os quais o concorrente mais próximo foi aberto.
@@ -40,7 +40,7 @@ PromoInterval | Descreve os intervalos consecutivos de início da Promo2, nomean
 
 **Filtragem dos Dados:** Etapa a qual filtrei valores do meu dataset, ou seja, eliminei variáveis que não mais utilizaria na modelagem ou por já terem sido utilizadas na etapa anterior ou por não estarem dentro do escopo de negócio.
 
-**Análise Exploratória dos Dados:** Etapa fundamental do projeto, nesta etapa pude desenvolver a análise univariada, bivariada e multivariada. Nesta etapa, utilizei ferramentas estatísticas para encontrar insights de negócio e entender o impacto das variáveis para a construção do modelo. 
+**Análise Exploratória dos Dados:** Etapa fundamental do projeto, nesta etapa pude desenvolver a análise univariada, bivariada e multivariada. Nesta etapa, utilizei ferramentas estatísticas para encontrar insights de negócio e entender o impacto das variáveis para a construção do modelo.
 
 **Preparação dos Dados:** Etapa a qual fiz normalizações, rescaling e encoding das variáveis que necessitavam. Essa etapa é essencial para que os algortimos de machine learning captem o real comportamento das dos atributos e suas relações sem dar um peso maior para variáveis que não necessitam de tal peso.
 
@@ -87,4 +87,37 @@ XGBoost Regressor |	7049.17 +/- 589.69 |	0.95 +/- 0.0 |	7715.34 +/- 690.4
 
 ## 6. Convertendo o Desempenho do Modelo em Resultados de Negócio
 
+Os resultados obtidos com os modelos de previsão de vendas têm um impacto direto nos objetivos comerciais da rede de farmácias Rossman. Ao aplicar esses modelos, identificamos oportunidades valiosas e pontos de melhoria que podem impulsionar a eficiência operacional e a lucratividade da empresa.
+
+### Impacto Financeiro e Estratégico:
+
+- **Otimização de Estoques:** Os modelos desenvolvidos são capazes de prever com precisão as vendas futuras, permitindo à Rossman otimizar seus estoques. Isso leva a uma redução de custos de armazenamento e ao aumento da disponibilidade dos produtos nas lojas, melhorando a experiência do cliente.
+
+- **Estratégias de Promoção Eficientes:** Com a identificação dos períodos mais eficazes para promoções, a empresa pode planejar campanhas promocionais mais direcionadas, aumentando o retorno sobre o investimento em marketing.
+
+- **Alocação de Recursos Inteligente:** Os insights fornecidos pelos modelos auxiliam na alocação adequada de recursos, permitindo que a Rossman concentre seus esforços onde eles terão o maior impacto nas vendas e no desempenho geral das lojas.
+
+### Estimativa de Retorno sobre o Investimento (ROI):
+
+Os modelos propostos oferecem uma oportunidade clara de retorno sobre o investimento:
+
+- Redução de custos operacionais associados ao estoque excedente.
+- Aumento das vendas devido a uma melhor previsão e estratégia de promoção.
+- Aumento da satisfação do cliente pela disponibilidade de produtos desejados.
+
 ## 7. Conclusão
+
+O projeto de previsão de vendas para a rede Rossman apresentou insights valiosos e abriu portas para melhorias significativas nos processos comerciais.
+
+### Principais Resultados:
+
+- **Desempenho dos Modelos:** Os modelos propostos, especialmente o Random Forest Regressor, demonstraram um desempenho promissor na previsão de vendas, com resultados altamente precisos e confiáveis.
+
+- **Impacto Potencial:** Os insights gerados pelos modelos oferecem à Rossman a capacidade de tomar decisões mais informadas, alinhadas com as demandas do mercado e as particularidades de suas lojas individuais.
+
+### Aprendizados e Próximos Passos:
+
+- **Aprendizados-Chave:** Durante o processo, identificamos a importância da qualidade dos dados, da engenharia de atributos e da validação contínua para aprimorar os modelos de previsão.
+
+
+Este projeto fornece à Rossman uma base sólida para melhorar suas operações, promover estratégias mais eficazes e, em última análise, impulsionar seu sucesso no mercado de varejo de farmácias.
